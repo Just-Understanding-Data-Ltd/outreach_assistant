@@ -36,3 +36,11 @@ DATAFORSEO_PASSWORD='your_dataforseo_password'
 ```
 python agent.py
 ```
+
+---
+
+## TODO
+
+- [ ] Make the websites that we decide to classify more specific.
+- [ ] Build a browser agent to automatically find the contact information.
+- [ ] Handle Captchas, rate limits and other errors.
