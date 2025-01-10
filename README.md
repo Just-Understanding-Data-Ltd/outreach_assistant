@@ -23,7 +23,7 @@ An intelligent web research automation tool that uses AI to find and classify po
 
 1. Create a `.env` file in the root directory:
 
-```
+```python
 TAVILY_API_KEY='your_tavily_api_key'
 DATAFORSEO_USERNAME='your_dataforseo_username'
 DATAFORSEO_PASSWORD='your_dataforseo_password'
@@ -33,7 +33,7 @@ DATAFORSEO_PASSWORD='your_dataforseo_password'
 
 3. Run the script:
 
-```
+```python
 python agent.py
 ```
 
