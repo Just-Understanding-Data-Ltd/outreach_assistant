@@ -41,8 +41,17 @@ class OutreachTracker:
         self.visited_domains = data.get("visited_domains", {})
 
     def get_solo_count(self) -> int:
-        return sum(1 for info in self.visited_domains.values() if info.get("classification") == "SOLO")
-
+        """
+        Count domains classified as 'SOLO', handling both dict and string values.
+        """
+        count = 0
+        for info in self.visited_domains.values():
+            if isinstance(info, dict):
+                if info.get("classification") == "SOLO":
+                    count += 1
+            elif isinstance(info, str) and info == "SOLO":
+                count += 1
+        return count
 
     def save(self):
         data = {

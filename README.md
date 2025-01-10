@@ -41,6 +41,9 @@ python agent.py
 
 ## TODO
 
+- [ ] Allow any type of site to be found. I.e. not just looking for social media marketing profesionals.
+- [ ] Add a Google My Business search tool.
+- [ ] Add a way to rank previous query searchs for in-prompt optimisation based on historical success.
 - [ ] Make the websites that we decide to classify more specific.
 - [ ] Build a browser agent to automatically find the contact information.
 - [ ] Handle Captchas, rate limits and other errors.

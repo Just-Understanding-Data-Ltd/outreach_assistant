@@ -433,9 +433,8 @@ def run_agent_loop(target_leads=100, max_hours=4):
                 "role": "user",
                 "content": (
                     "We've had several queries with no new leads. Let's try a new approach!\n"
-                    "1. Use completely different search terms\n"
-                    "2. Try targeting different niches (e.g., 'solo SEO consultant', 'independent content strategist')\n"
-                    "3. Look for personal portfolio sites or blogs in marketing\n"
+                    "1. Use completely different search terms like 'freelance social media marketing experts'. Get creative with google search operators.\n"
+                    "2. Look for personal portfolio sites or blogs in marketing\n"
                     f"We still need {target_leads - current_solo_count} more SOLO leads."
                 )
             })
